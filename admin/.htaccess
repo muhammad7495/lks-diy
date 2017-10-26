@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^(.*)\.htm$ $1.php [NC]
+RewriteRule ^([^.]*)$ index.php
